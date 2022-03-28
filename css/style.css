@@ -1,0 +1,25 @@
+
+/* font-family: 'Gelasio', serif;
+font-family: 'Ribeye', cursive;
+font-family: 'Roboto', sans-serif; */
+
+
+body {
+	/* background: url('../images/header-bg.jpg') no-repeat top center / cover; */
+	max-width: 1600px;
+	min-height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #000000;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+} 
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
