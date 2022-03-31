@@ -162,16 +162,14 @@ a:hover::after {
 .popular__cards {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-
-
+	justify-content: center;
+	gap: 3rem;
 }
 
 .card {
-	max-width: 36rem;
+	flex: 0 0 36rem;
 	background: #FFFFFF;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-sizing: border-box;
 	box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
 	border-radius: 10px;
 	cursor: pointer;
@@ -180,21 +178,10 @@ a:hover::after {
 .card img {
 	border-radius: 10px 10px 0 0;
 	margin-bottom: 3.5rem;
+	object-fit: cover;
 }
 
 .card__descr {
+	max-width: 33.6rem;
 	padding: 0 2.7rem 3.3rem;
 }
-/* .cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	margin: 0 -1rem;
-        overflow: hidden;
-}
-
-.card {
-	min-width: 38rem;
-	flex: 0 0 calc(33.333% - 2rem);
-	margin: 1rem;
- */
